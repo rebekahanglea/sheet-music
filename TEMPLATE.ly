@@ -31,9 +31,9 @@
 }
 
 global = {
-  \key g \major
+  \key c \major
   \numericTimeSignature
-\time 12/8
+\time 4/4
   \set Timing.beamExceptions = #'() % REBEKAH IGNORE
 }
 
