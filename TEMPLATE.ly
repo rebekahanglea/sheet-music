@@ -78,7 +78,7 @@ refrain = \lyricmode {
 %REBEKAH: UNHIDE EXTRA STANZAS BELOW
 
 chordMusic = \chordmode {
-  e:m a:m
+  
 }
 %%%REBEKAH IGNORE:
 chordNames = \chordmode { 
@@ -137,7 +137,7 @@ aligner = { \sopranoMusic \sopranoMusicRefrain }
     }
   >>
 
-}
+\midi {}
 
 \layout {
   indent = 0
@@ -184,5 +184,6 @@ aligner = { \sopranoMusic \sopranoMusicRefrain }
     \override Staff.printPartCombineTexts = ##f
   }
 }
-\midi {}
 
+
+}
